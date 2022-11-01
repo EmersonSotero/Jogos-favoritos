@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (min-width: 800px){
     main{
         background: #141414;
     }
