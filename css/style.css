@@ -72,3 +72,13 @@ main{
 }
 
     .layoutjogos img{ height: 4.5em; margin-left: 10px; border-radius: 1rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;}
+    @media(max-width: 700px){
+
+        .conteudo{
+            width: 90vw;
+        }
+
+        .painel img{
+            height: 90px;
+        }
+    }
