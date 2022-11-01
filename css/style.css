@@ -4,16 +4,6 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 800px){
-    main{
-        background: #141414;
-    }
-
-    .conteudo{
-        width: 80vw;
-    }
-}
-
 main{
     min-height: 100vh;
     background: linear-gradient(to right top, #141414, #48dbe0);
