@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #141414, #48dbe0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo{
+    background: linear-gradient(to right bottom, rgba(256,256,256, 0.7), rgba(256,256,256, 0.1));
+    height: 70vh;
+    width: 50vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2rem;
+    display: flex;
+}
+
+.painel{
+    height: 100%;
+    width: 30%;
+    background-color:rgb(164, 233, 210);
+    border-radius: 2rem 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.perfil img{
+    width: 130px;
+    height: 130px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50%;
+}
+
+.perfil h3, .jogosfavoritos h1, .layoutjogos h3{ text-align: center; font-size: 1em;}
+.jogosfavoritos h1{ margin-top: 10px}
+.layoutjogos h3{ margin: auto;}
+
+.jogosfavoritos{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    align-items: center;
+    border-radius: 0 2rem 2rem 0;
+    padding: 15px 0;
+}
+
+
+.jogos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.layoutjogos{
+    height: 90px;
+    width: 80%;
+    background-color: rgb(224, 253, 244);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+    .layoutjogos img{ height: 4.5em; margin-left: 10px; border-radius: 1rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;}
