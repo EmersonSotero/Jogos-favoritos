@@ -32,6 +32,10 @@ main{
     align-items: center;
 }
 
+.logoconsole{
+		height: 85px;
+		margin-top: 10px;
+}
 .perfil img{
     height: 130px;
     width: 130px;
@@ -63,7 +67,7 @@ main{
     width: 100%;
 }
 .layoutjogos{
-    height: 90px;
+    height: 80%;
     width: 80%;
     background-color: rgb(224, 253, 244);
     border-radius: 1rem;
@@ -71,8 +75,10 @@ main{
     align-items: center;
 }
 
-    .layoutjogos img{ height: 4.5em; margin-left: 10px; border-radius: 1rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;}
+    .layoutjogos img{ height: 8em; margin-left: 10px; border-radius: 1rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;}
    
+
+
 
 @media(max-width:700px) {
     main {
@@ -98,8 +104,18 @@ main{
         height: 30%;
         width: auto;
         border-radius: 2rem 2rem 0 0;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
     }
 
+	.logoconsole{
+		visibility : hidden;
+		position: absolute;
+		top:0px;
+	}
+	
     .painel img {
         height: 90px;
         width: 90px;
@@ -109,4 +125,8 @@ main{
         height: 75px;
 
     }
+	
+	.layoutjogos img{
+		height: 4em;
+	}
 }
